@@ -2,7 +2,7 @@
 > A basic chat module for Open Web Desktop
 
 <p>
-    <img src="media/demo.png" alt="OWD Sample module demo" />
+    <img src="media/demo.png" alt="OWD Chat module demo" />
 </p>
 
 <p>
@@ -28,14 +28,12 @@ An app boilerplate for your Open Web Desktop client
 - Define this module in `owd-client/client.extensions.ts`
   ```js
   import AboutModule from "@owd-client/core/src/modules/app/about";
-  //import DebugModule from "@owd-client/core/src/modules/app/debug";
   import ChatModule from "~/modules/app/chat/client";
 
   export default {
     app: {
       modules: [
         AboutModule,
-        //DebugModule,
         ChatModule,
       ]
     },
